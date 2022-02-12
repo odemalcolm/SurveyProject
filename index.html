@@ -21,7 +21,7 @@
         id="name" 
         class="form-control" 
         placeholder="Please enter your name" 
-        required>
+        required/>
         </div>
         <div class="form-group">
             <label id='email-label' for="email">Email</label>
@@ -31,14 +31,19 @@
             id="email"
             class="form-control"
             placeholder="Enter your Email"
-            required
+            required/>
         </div>
         <div class="form-group">
             <label id="number-label" for="number">Age</label>
             <input
             type="number"
-            name="number"
-
+            name="age"
+            id="number"
+            min="10"
+            max="99"
+            class="form-control"
+            placeholder="Age"
+            />
         </div>
     </form>
 
