@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey Form</title>
+    <style></style>
 </head>
 <body>
     <div id='container'>
@@ -45,6 +46,46 @@
             placeholder="Age"
             />
         </div>
+        <div class='form-group'>
+            <label id='dropdown-label' for='dropdown'>How much do you love Haylee</label>
+            <select id='dropdown' name="level" class="form-control" required>
+                <option disabled selected value>Select an option</option>
+                <option value="max">Literally infinitely</option>
+                <option value="lots">So so much</option>
+                <option value="mid">I love her lots</option>
+                <option value="min">I mean I love her</option>
+            </select>
+            
+        </div>
+        <div class='form-group'>
+            <p>Is Haylee the most amazing girl ever?</p>
+            <label>
+                <input
+                name="user-love"
+                value="yes"
+                type="radio"
+                class="input-radio"
+                checked/>Yes</label>
+           <label>
+            <input
+            name="user-love"
+            value="yes2"
+            type="radio"
+            class="input-radio"
+            checked/>Double yes</label>
+        </div>
+        <div class="form-group">
+            <p>
+              Which parts of Haylee do you love
+              <span class="clue">(Check all that apply)</span>
+            </p>
+            <label>
+                <input
+                name="part"
+                value="butt"
+                type="checkbox"
+                class="input-checkbox"
+            </label>
     </form>
 
 
