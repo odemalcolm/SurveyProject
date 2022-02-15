@@ -76,7 +76,7 @@
         </div>
         <div class="form-group">
             <p>
-              Which parts of Haylee do you love
+              Which parts of Haylee do you love the most
               <span class="clue">(Check all that apply)</span>
             </p>
             <label>
@@ -92,9 +92,44 @@
                 type="checkbox"
                 class="input-checkbox"/>Face
             </label>
+            <label>
+                <input
+                name='part'
+                value='personality'
+                type="checkbox"
+                class="input-checkbox"/>Personality
+            </label>
+            <label>
+                <input
+                name='part'
+                value='Hair'
+                type="checkbox"
+                class="input-checkbox"/>Hair
+            </label>
+            <label>
+                <input
+                name='part'
+                value='all'
+                type="checkbox"
+                class="input-checkbox"/>All of the above!
+            </label>
+        </div>
+        <div class="form-group">
+            <p>Any other reasons to love Haylee? Write them bellow.</p>
+            <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Enter your comment here..."></textarea>
+        </div>
+        <div class="form-group">
+            <button 
+            type="submit" 
+            id="submit" 
+            class="submit-button">Submit
+            </button>
+        </div>
     </form>
-
-
     </div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
